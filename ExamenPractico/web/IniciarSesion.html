@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Iniciar Sesion</title>
+        <link rel="stylesheet" href="./CSS/colores.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header><img src="./CSS/Logo.png" width="110px" height="110px" id="logo"></img>
+            <img src="./CSS/User.png" width="70px" height="70px" id="user"></img></header>
+        <div class="container">
+            <h1>Iniciar Sesion</h1>
+            <hr>
+            <div class="containerIniciar">
+                <form name="formularioiniciar" method="post" action="">
+                    <label>Nombre Usuario:</label>
+                    <input class="cadena" name="nombre" maxlength="20">
+                    <br>
+                    <label>Contraseña:</label>
+                    <input class="cadena" name="contra" maxlength="11">
+                    <br>
+                    <input type="submit" value="Ingresar" onclick="ingresar()">
+                </form>
+            </div>
+        </div>
+        <br>
+        <a href="Registro.html" id="registrar">Registrate</a>
+        <br>
+        <footer>
+            <p>Equipo 8</p>
+            <p>Lopez Castillo Azurim Sua</p>
+            <p>Tellez de la Cruz Esaul</p>
+            <p>Ugalde Tellez Aron</p>
+        </footer>
+    </body>
+</html>
