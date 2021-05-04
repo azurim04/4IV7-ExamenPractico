@@ -5,22 +5,21 @@ function validar(formulario){
     var esEmail = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/
     var esNumero = /^[0-9]+$/
     var esCadena = /([A-Za-z])+ ?/
-    alert("hola?")
     for(var i=0;i<cadenas.length;i++){
         if (!esCadena.test(cadenas[i].value)){
-            alert("recuerda ingresar solo letras y no dejar el espacio vacio")
+            alert("recuerda ingresar solo letras y no dejar el espacio vacio" + cadenas[i].value)
             return false;
         }
     }
     for(var i=0;i<numeros.length;i++){
         if (!esNumero.test(numeros[i].value)){
-            alert("recuerda ingresar solo numeros y no dejar espacios vacios")
+            alert("recuerda ingresar solo numeros y no dejar espacios vacios" + numeros[i].value)
             return false;
         }
     }
     for(var i=0;i<email.length;i++){
         if (!esEmail.test(email[i].value)){
-            alert("recuerda ingresar solo un email y no dejar el espacio vacio")
+            alert("recuerda ingresar solo un email y no dejar el espacio vacio" + email[i].value)
             return false;
         }
     }
@@ -41,7 +40,7 @@ function actualizar(formulario){
         formulario.action = "actualizarPromociones.jsp"
     }
 }
-function registrarUsuario (formulario){
+function registroUsuario(formulario){
     if(validar(formulario)){
         formulario.action = "registrar.jsp"
     }
