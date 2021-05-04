@@ -1,0 +1,143 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+background: url(https://cdn.pixabay.com/photo/2019/07/17/15/38/ice-cream-4344228__340.png);
+}
+
+header{
+    padding:0 1rem;
+    padding-top: 1rem;
+    background-color: #0496ff;
+}
+
+#logo2{
+    float: left;
+}
+
+#user2{
+    margin-left: 87%
+        
+}
+
+
+#up, #up2{
+    display: inline-flex;
+    color: white;
+    background-color: #0496ff;
+    font-size: 30px;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    
+    
+}
+
+#user{
+    margin-left: 87%;
+}
+
+.container{
+    display: -webkit-flex;
+    display: inline-block;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 5rem 19%;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 2px solid #90A8C3;
+    background-color: #f39a9d;
+    width: 60%;
+}
+
+#sabores{
+    width: 95%;
+    margin: 5rem 1.5rem;
+}
+
+#form, #tabla{
+    width: 45%;
+    display: inline-block;
+    justify-content: space-between;
+}
+#form{
+    margin-left: 3%;
+    margin-top: 1rem;
+}
+#tabla{
+    margin-left: 4%; 
+}
+
+#agregar, #actualizar, #eliminar{
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+}
+#agregar{
+    background-color: #fed766;
+}
+#actualizar{
+    background-color: #fed766;
+}
+#eliminar{
+    background-color: #fed766;
+}
+.containerIniciar, .containerregistro{
+    width: 100%;
+    padding: 1rem;
+    padding: 1rem;
+}
+
+@media (min-width: 800px){
+    .container{
+        font-size: 1.2em;
+    }
+}
+
+h1{
+    padding: 1rem;
+    text-align: center;
+}
+
+.containerIniciar, .containerregistro{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#registrar{
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    background: #fed766;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    transition: .3s ease all;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1rem;
+    margin-left: 44%;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10%;
+    background: #9fffcb;
+    color: white;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+    font-size: 20px;
+}
