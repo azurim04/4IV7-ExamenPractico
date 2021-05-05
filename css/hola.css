@@ -1,0 +1,127 @@
+header {
+	height: 100px;
+	
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+
+    padding: 1rem;
+    padding-top: 1rem;
+    background-color: #0496ff;
+}
+body,html{
+    background: url(https://cdn.pixabay.com/photo/2019/07/17/15/38/ice-cream-4344228__340.png);
+    }
+
+    *{
+        padding: 0;
+        margin: 0;
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto', sans-serif;
+  }
+.logo{
+  float: left;
+  text-align: right;
+  height: 80px;
+  width: 300px;
+}
+.usuario{
+  float: right;
+  text-align: right;
+  height: 80px;
+  width: 100px;
+  padding-right: 3rem;
+}
+
+
+
+
+.actualizar {
+  width: 300px;
+  height: 600px;
+  color: #fff;
+  background-color: rgb(214, 57, 57);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  padding-top: 5rem;
+}
+.consultar {
+  width: 300px;
+  height: 600px;
+  color: #fff;
+  
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: matrix(-20%,50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+
+.login label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.login input[type="text"], .login input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0496ff;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+ 
+}
+
+
+.login a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+}
+footer{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  top: 100%;
+  position: static;
+  transform: translate(0%,1100%);
+  color: rgb(43, 43, 43);
+}
+header {
+	height: 100px;
+	
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+
+    padding: 1rem;
+    padding-top: 1rem;
+    background-color: #0496ff;
+}
+
+  label{
+padding-top: 2rem;
+}

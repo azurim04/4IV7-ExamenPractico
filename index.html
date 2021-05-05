@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CRUD Usuarios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <div class="actualizar">
+            <form name="crud" method="get" action="Usuario">
+                <label>Nombre de usuario a  actualizar:</label>
+                <input type="text" name="nombre-actualizar">
+                <br>
+                <label>Nombre del usuario:</label>
+                <input type="text" name="nombre-usuario">
+                <br>
+                <label>Nombre:</label>
+                <input type="text" name="nombre">
+                <br>
+                <label>Apellido Materno</label>
+                <input type="text" name="s">
+                <br>
+                <label>Apellido Paterno</label>
+                <input type="text" name="apellido-paterno">
+                <br>
+                <label>Edad</label>
+                <input type="number" name="edad" min="01" max="99">
+                <br>
+                <label>Fecha De Nacimiento</label>
+                <input type="date" name="fecha-de-nacimiento"
+                value="2010-12-31" min="1922-01-01" max="2010-12-31" required>
+                <br>
+                <label>Domicilio</label>
+                <input type="text" name="domicilio">
+                <br>
+                <label>Telefono Particular</label>
+                <input type="number" max="12" name="telefono-particular">
+                <br>
+                <label>Telefono Celular</label>
+                <input type="number"   max="12" name="telefono-celular">
+                <br>
+                <label>Contraseña</label>
+                <input type="password" name="contraseña">
+                <br>
+                <input type="submit" value="actualizar">
+            </form>
+            
+        </div>
+        <div class="consultar">
+            <form method="post" name="consultar" action="consultar">
+               
+     
+               
+                <input type="submit" value="consultar">
+                <br>
+            </form>
+            </div>
+        <div class="eliminar">
+            <form method="post" name="eliminar" action="Eliminar">
+               
+                <label> Usuario que desea eliminar</label>
+                <input type="text" name="eliminar-usuario">
+                <input type="submit" value="eliminar">
+                <br>
+            </form>
+            </div>
+        <footer>
+            <p>Equipo 8</p>
+            <p>Lopez Castillo Azurim Sua</p>
+            <p>Tellez de la Cruz Esaul</p>
+            <p>Ugalde Tellez Aron</p>
+        </footer>
+    </body>
+</html>
